@@ -1,0 +1,74 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.docker
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Docker
+**/.docker/
+**/docker-compose.override.yml
+
+# Coverage
+coverage/
+**/coverage/
+
+# Misc
+*.tgz
+*.log
+
+# Frontend
+frontend/.next/
+frontend/.cache/
+frontend/.turbo/
+
+# Backend
+backend/.cache/
+backend/.turbo/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Nginx SSL (if generated)
+docker/nginx/ssl/
+
+# MongoDB/Redis data (if mapped locally)
+mongo_data/
+redis_data/
+
+# PM2 logs
+pm2.log
+
+# Local backups
+/backups/
+
+# Test output
+*.test-results.xml
